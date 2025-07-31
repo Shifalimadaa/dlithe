@@ -1,0 +1,20 @@
+Dynamic memory allocation
+example:
+int *p=(int*)malloc(5*sizeof(int));
+
+car *q=(car*)malloc(5*sizeof(car));
+float *p=(float*)malloc(5*sizeof(float));
+
+calloc:it is a memory allocation used to allocate dynamic memory allocation
+syntax:
+pointer=(datatype*)malloc(size *sizeof(datatype))
+
+REALLOC: it is a memeory reallocation function used to cane te size of te memory wic alraedy allocated by malloc or calloc function
+   syntax: pointer=(datatype*)realloc(pointername,size*sizeof(datatype));    ex:p=(int*)reaaloc (p,10*sizef(int));
+      q=(car*)reaaloc (p,10*sizef(int));
+      r=(int*)reaaloc (p,10*sizef(int)); 
+
+is used to delete te data from te memeory allocated by malloc or calloc function. reloc function
+a=123 b=256 c=456
+
+dynamic memory allocation is used

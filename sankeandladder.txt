@@ -1,0 +1,21 @@
+write a program to implement sanke and ladder for the given snake and ladder board.
+s(score)=8 {add 14}=22
+        =27{add 26}=53
+        =42{    26}=68
+        =61{    30}=91
+        =75{    20}
+s=97{sub 80}  
+s=92{    60}
+s=74{    34}=40
+s=56{    30}=26
+s=23{    16}=7
+Step 1:Assign p1=0,p2=0 and read player number
+Step 2:Gennrate a random number between 1 to 6
+Step 3:Add random nuber to the player score
+step 4:Check if any snake or ladder
+Step 5:Check if player score=100
+Step 6:then declare th player as the winner and stop execution
+Step 7:Check if player score>100 then reduce the random number from the        player score
+step 8:Repeat step p2  
+
+To print all possible substring in the given strin
